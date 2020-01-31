@@ -206,18 +206,35 @@ Ako te ovo što smo sada uradili nije impresioniralo, ne brini, ta reakcija je s
 Distribucija materijala na kursu
 --------------------------------
 
-Sada smo završili rad u ovoj radnoj svesci i uradićemo još jednu stvar pre nego što završimo ovo uputstvo. U tvoj folder ubacićemo još jednu radnu svesku koju ćemo preuzeti sa našeg sa našeg Github repozitorijuma. U ovom trenutku ne moraš se baviti time šta je Github i kako se koristi, dovoljno je da isprobaš da u svoj folder ubaciš i radnu svesku koju si ovako preuzeo/preuzela, pošto ćemo ti tokom Škole tako distribuirati materijale. Klikni na `ovaj link <https://github.com/Petlja/JupyterBookSrLat/archive/master.zip>`_ i to bi trebalo da pokrene preuzimanje .zip fajla. Taj fajl otvori i njegov sadržaj (folder koji se zove ZSkola2020Modul0-master) iskopiraj u folder koji smo napravili na početku ove sekcije uputstva (kod mene je to folder Zimska_Skola_Jupiter). Kada si to uradio/uradila, trebalo bi da u folderu koji je otvoren u jednom od tabova brauzera (ako nisi isključio/isključila ni jedan tab i dalje će biti tu, ako jesi ponovo možeš da odeš localhost URL koji smo na početku koristili kako bi otvorio početnu stranu Jupiter Notebook-a) vidiš ovaj folder. Uđi u njega i otvori radnu svesku koja se u njemu nalazi.
+Sada smo završili rad u ovoj radnoj svesci i uradićemo još jednu stvar pre nego što završimo ovo uputstvo. U tvoj folder ubacićemo još jednu radnu svesku koju ćemo preuzeti sa našeg sa našeg Github repozitorijuma. U ovom trenutku ne moraš se baviti time šta je Github i kako se koristi, dovoljno je da isprobaš da u svoj folder ubaciš i radnu svesku koju si ovako preuzeo/preuzela, pošto ćemo ti tokom Škole tako distribuirati materijale. Klikni na ovaj link https://github.com/Petlja/ZSkola2020Modul0/archive/master.zip i to bi trebalo da pokrene preuzimanje .zip fajla. Taj fajl otvori i njegov sadržaj (folder koji se zove ZSkola2020Modul0-master) iskopiraj u folder koji smo napravili na početku ove sekcije uputstva (kod mene je to folder Zimska_Skola_Jupiter). Kada si to uradio/uradila, trebalo bi da u folderu koji je otvoren u jednom od tabova brauzera (ako nisi isključio/isključila ni jedan tab i dalje će biti tu, ako jesi ponovo možeš da odeš localhost URL koji smo na početku koristili kako bi otvorio početnu stranu Jupiter Notebook-a) vidiš ovaj folder. Uđi u njega i otvori radnu svesku koja se u njemu nalazi.
+
+Ako si koristio/koristila Azuer Notebooks servis, pogledaj u trećem delu uputstva kako da uvezeš Github repozitorijum. 
 
 Kada to završiš, gotovo je sa tvojom pripremom za Školu. Ako je ostalo nešto nerešeno i/ili imaš pitanja koja nisu pokrivena ovim uputstvom, piši na lazar.bojicic@petlja.org 
-
-* `restructuredText Docs <http://docutils.sourceforge.net/rst.html>`_
-* `Runestone Docs <http://runestoneinteractive.org/build/html/index.html>`_
-* Join the discussion on our `Google Group <https://groups.google.com/forum/#!forum/runestone_instructors>`_
-* Tell us about problems on `Github <https://github.com/RunestoneInteractive/RunestoneComponents>`_
-
-
 
 Korišćenje radnih sveski pomoću servisa Azure Notebooks
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Ovaj deo uputstva preporučujemo da ispratiš samo ako nisi uspeo/uspela da instaliraš Anakondu i koristiš sveske na način na koji opisano u prethodnoj sekciji uputstva. Pokušao/pokušala si a insaliraš i nije radilo, probao/probala si nekoliko puta ponoo i nije radilo, pretražio/pretražila si Google sa pitanjima zašto ti nešto ne možeš da instaliraš Anakondu ili pokreneš radne sveske na svom računaru? Ne brini, sveske ćeš moći da pokreneš u brauzeru i putem interneta i servisa Azure Notebooks. Gotovo da neće biti razlike pri korišćenju sveski.   
+Ovaj deo uputstva preporučujemo da ispratiš samo ako nisi uspeo/uspela da instaliraš Anakondu i koristiš sveske na način na koji opisano u prethodnoj sekciji uputstva. Pokušao/pokušala si a insaliraš i nije radilo, probao/probala si nekoliko puta ponoo i nije radilo, pretražio/pretražila si Google sa pitanjima zašto ti nešto ne možeš da instaliraš Anakondu ili pokreneš radne sveske na svom računaru? Ne brini, sveske ćeš moći da pokreneš u brauzeru i putem interneta i servisa Azure Notebooks. Gotovo da neće biti razlike pri korišćenju sveski.
+
+Idi na ovaj `link <https://notebooks.azure.com/>`_ i klikni **Sing in** u gornjem desnom uglu. Ovo će te odvesti na stranu gde ćeš morati da napraviš svoj Microsoft nalog. Napravi nalog i uloguj se. Otvoriće ti se prozor kao ovaj na slici ispod. likni na **New Project** i to će  započeti novi projekat na tvom nalogu. 
+
+.. image:: ../_images/slika27.jpg
+   :align: center
+|
+Nakon toga, otvoriće ti se prozor na kome je potrebno da daš ime svom projektu i podesiš neke parametre. Ja sam ih popunio ovako. Kada završiš imenovanje klikkni na **Create**
+
+.. image:: ../_images/slika28.jpg
+   :align: center
+|
+Kada to uradiš, otvoriće ti se prozor tvog novog projekta. U gornjem desnom uglu klikni na **New** i izaberi Notebook, a zatim svesci daj ime i  izaberi Python 3.6. Klikni na novu radnu svesku koju si napravio/napravila i to će otvoriti novi tab u kome će se otvoriti radna sveska. Dalje  možeš sve da radiš kao što je opisano u prethodnoj sekciji ovog uputstva. 
+
+.. image:: ../_images/slika29.jpg
+   :align: center
+|
+Kada završiš sa radom i zapamtiš svoju radnu svesku, svaki put ćeš moći da je nađeš i otvoriš u okviru svog profila.
+
+Važno je i da naučiš kako da uvezeš radne sveske sa Github-a, pošto ćemo ti tako dostavljati materijal sa kursa. Na strani My projects, u okviru Azure Notebooks (link ka toj strani biće notebooks.azure.com/tvoje_korisničko_ime/projects) moći ćeš da gore desno klikneš na Upload Github Repo. Otvoriće ti se prozor u kome će biti važno da u gornje polje uneseš link ka našem repozitorijumu. Link ćeš dobiti od nas i uvek će biti u ovom formatu github.com/Petlja/Imerepozitorijuma. repo koji sada treba da uvezeš nalazi se na ovom linku https://github.com/Petlja/ZSkola2020Modul0 a od tebe se očekuje da iskoristiš deo Petlja/ZSkola2020Modul0 kao što je prikazano na slici ispod. Klikni na import i to će u okviru tvojih projekata otvoriti naš repozitorijum u kome se nalaze potrebne radne sveske. Zatim klikni na fajl Test Sveska i to bi trebalo da otvori nov tab sa ovom sveskom. 
+
+.. image:: ../_images/slika30.jpg
+   :align: center
