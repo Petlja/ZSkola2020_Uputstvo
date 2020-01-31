@@ -5,7 +5,7 @@ Pre nego što počnemo
 Zdravo!
 
 
-Ako čitaš ovo uputstvo znači da si nas kroz svoju prijavu ubedio/ubedila da baš tebe treba da izaberemo od svih prijaljenih kandidata. Čestitamo ti na tome. Sada između tebe i početka škole stoje još samo koraci koji se nalaze u ovom uputstvu. Pre nego što dođeš na prvo predavanje biće potrebno da pripremiš nekoliko stvari na svom računaru. Ako sve bude išlo kako treba, za ovo ti neće trebati više od dvadesetak minuta.
+Ako čitaš ovo uputstvo znači da si nas kroz svoju prijavu ubedio/ubedila da baš tebe treba da izaberemo od svih prijaljenih kandidata. Čestitamo ti na tome. Sada između tebe i početka škole stoje još samo koraci koji se nalaze u ovom uputstvu. Pre nego što dođeš na prvo predavanje biće potrebno da pripremiš nekoliko stvari na svom računaru. Ako sve bude išlo kako treba, za ovo ti neće trebati više od minuta.
 
 
 
@@ -234,7 +234,9 @@ Kada to uradiš, otvoriće ti se prozor tvog novog projekta. U gornjem desnom ug
 |
 Kada završiš sa radom i zapamtiš svoju radnu svesku, svaki put ćeš moći da je nađeš i otvoriš u okviru svog profila.
 
-Važno je i da naučiš kako da uvezeš radne sveske sa Github-a, pošto ćemo ti tako dostavljati materijal sa kursa. Na strani My projects, u okviru Azure Notebooks (link ka toj strani biće notebooks.azure.com/tvoje_korisničko_ime/projects) moći ćeš da gore desno klikneš na Upload Github Repo. Otvoriće ti se prozor u kome će biti važno da u gornje polje uneseš link ka našem repozitorijumu. Link ćeš dobiti od nas i uvek će biti u ovom formatu github.com/Petlja/Imerepozitorijuma. repo koji sada treba da uvezeš nalazi se na ovom linku https://github.com/Petlja/ZSkola2020Modul0 a od tebe se očekuje da iskoristiš deo Petlja/ZSkola2020Modul0 kao što je prikazano na slici ispod. Klikni na import i to će u okviru tvojih projekata otvoriti naš repozitorijum u kome se nalaze potrebne radne sveske. Zatim klikni na fajl Test Sveska i to bi trebalo da otvori nov tab sa ovom sveskom. 
+Važno je i da naučiš kako da uvezeš radne sveske sa Github-a, pošto ćemo ti tako dostavljati materijal sa kursa. Na strani My projects, u okviru Azure Notebooks (link ka toj strani biće notebooks.azure.com/tvoje_korisničko_ime/projects) moći ćeš da gore desno klikneš na Upload Github Repo. Otvoriće ti se prozor u kome će biti važno da u gornje polje uneseš link ka našem repozitorijumu. Link ćeš dobiti od nas i uvek će biti u ovom formatu github.com/Petlja/Imerepozitorijuma. repo koji sada treba da uvezeš nalazi se na ovom linku https://github.com/Petlja/ZSkola2020Modul0 a od tebe se očekuje da iskoristiš deo Petlja/ZSkola2020Modul0 kao što je prikazano na slici ispod. Klikni na *Import* i to će u okviru tvojih projekata otvoriti naš repozitorijum u kome se nalaze potrebne radne sveske. 
 
 .. image:: ../_images/slika30.jpg
    :align: center
+|
+Zatim klikni na fajl Test Sveska i to bi trebalo da otvori nov tab sa ovom sveskom. Tokom škole ćeš od nas dobijati materijale u ovom obliku i biće potrebno da na ovaj način uvoziš Github repozitorijume na svoj nalog. 
