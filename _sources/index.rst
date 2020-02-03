@@ -16,7 +16,7 @@ Osim toga što je bioskopski hit devedesetih i nesrećni singl sredine prošle d
 
 Ako već imaš iskustva sa instalacijom Pajtona i upotrebom Jupitera sa Pajtonom (na svom računaru već imaš instaliran Pajton, Jupiter, ranije si instalirao/instalirala biblioteke pomoću pip-a i siguran/sigurna si da to sve radi), ne moraš da koristiš Anakondu. U tom slučaju pretpostavljamo da znaš šta radiš i da ti ne treba tehnička podrška. Postaraj se samo da instaliraš ove biblioteke pre nego što dođeš na prvo predavanje (numpy>=1.1, matplotlib>=3.0, pandas>=0.23, xlrd>=1.1, openpyxl>=2.5, lxml>=4.2, jupyter>=1.0)
 
-Ako je prvi put da istaliraš Pajton i Jupiter kod sebe na računaru, na  pravom si mestu. Potrebno je da odeš na ovaj link https://www.anaconda.com/distribution/#download-section iznad izabereš operativni sistem koji koristiš, izabereš verziju Python 3.7 i klikneš na Download. Ovo će pokrenuti skidanje instalacionog fajla. Kada se preuzimanje završi pokreni instalacioni fajl i isprati instalacioni proces kao što je dole opisano. Ovde ćemo ti pokazati kako to da uradiš na *Windows 10 Pro* operativnom sistemu, ali i na drugim sistemima proces izgleda slično pa ne očekujemo da ćeš imati problema prilikom instalacije. 
+Ako je prvi put da istaliraš Pajton i Jupiter kod sebe na računaru, na  pravom si mestu. Potrebno je da odeš na ovaj link https://www.anaconda.com/distribution/#download-section i da izabereš operativni sistem koji koristiš, izabereš verziju Python 3.7 i klikneš na Download. Ovo će pokrenuti skidanje instalacionog fajla. Kada se preuzimanje završi pokreni instalacioni fajl i isprati instalacioni proces kao što je dole opisano. Ovde ćemo ti pokazati kako to da uradiš na *Windows 10* operativnom sistemu, ali i na drugim sistemima proces izgleda slično pa ne očekujemo da ćeš imati problema prilikom instalacije. 
 
 Korak 1. - započni instalaciju i na prvom prozoru klikni next
 
@@ -30,19 +30,19 @@ Korak 2. - Na sledećem prozoru odgovori da li se slažeš sa uslovima korišće
    :align: center
 
 |
-Korak 3. - Ovaj korak je jako važan! izaberi opciju **Just me** koja je preporučena. Instalirajući Anakondu samo za svoj nalog, izbeći ćeš neudobnosti u radu koje mogu da se jave ako izabereš opciju instalacije za sve korisnike, koja ti treba jedino u slučaju da više ljudi na istom računaru želi da koristi Anakondu sa različitih naloga. Zbog ovoga preporučujemo da izabereš opciju instalacije za jednog korisnika, a, ako nekada kada budeš imao/imala više znanja o mogućnostima instalacija različitih biblioteka i paketa, ponovi instalaciju sa drugačijim podešavanjima, ako za to bude potrebe. 
+Korak 3. - Ovaj korak je jako važan! izaberi opciju **Just me** koja je preporučena. Instalirajući Anakondu samo za svoj nalog, izbeći ćeš neudobnosti u radu koje mogu da se jave ako izabereš opciju instalacije za sve korisnike, koja ti treba jedino u slučaju da više ljudi na istom računaru želi da koristi Anakondu sa različitih naloga. 
 
 .. image:: ../_images/slika3.jpg
    :align: center
 
 |
-Korak 4. - Izaberi lokaciju na kojoj će biti instalirana Anakonda. Osim ako nema posebne potrebe da se Anakonda instalira na nekoj drugoj lokaciji, preporučujemo da koristiš lokaciju koju ti je instaler predložio. Ona treba da bude u formi *C:\\Users\\korisničko_ime\\Anaconda3* kao što je kod nas na sledećoj slici. 
+Korak 4. - Izaberi lokaciju na kojoj će biti instalirana Anakonda. Osim ako nema posebne potrebe da se Anakonda instalira na nekoj drugoj lokaciji, preporučujemo da koristiš lokaciju koju ti je instaler predložio. Predložen folder je obično u formi *C:\\Users\\korisničko_ime\\Anaconda3* kao što je kod nas na sledećoj slici. 
 
 .. image:: ../_images/slika4.jpg
    :align: center
 
 |
-Korak 5. - I ovaj korak je važan. Preporučujemo opciju da Anakondu prijaviš kao osnovni Pajton na tvom sistemu. Ovo će pomoći da ostali programi lakše prepoznaju Anakondu. Kada to uradiš klikni na **install**. Ako znaš šta radiš, možeš staviti Anakondu u PATH varijablu i pokretati više verzija Pajtona na svom računaru (ako ih već imaš instalirane), ali to ne preporučujemo ako prvi put koristiš Pajton ili Anakondu, pošto će gotovo izvesno samo uneti pometnju.
+Korak 5. - I ovaj korak je važan. Preporučujemo opciju da Anakondu prijaviš kao osnovni Pajton na tvom sistemu. Ovo će pomoći da ostali programi lakše prepoznaju Anakondu. Kada to uradiš klikni na **install**. Ako znaš šta radiš, možeš staviti Anakondu u PATH varijablu što ti može olakšati korišćenje Anakonde iz komandne linije, ali ti može zadati i glavobolje ako se time poremeti rad drugih aplikacija koje koriste PATH varijablu.
 
 .. image:: ../_images/slika5.jpg
    :align: center   
@@ -69,9 +69,9 @@ Korak 8. - Ako je sve proteklo kako treba, trebalo bi da stigneš do prozora koj
 Prva radna sveska
 :::::::::::::::::
 
-Instalirao/instalirala si Anakondu? Sjajno, počni da čitaš ovaj deo uputstva. Ako si imao/imala problema prilikom instalacije Anakonde ili primetiš da imaš nekih tehničkih problema prilikom pokretanja i korišćenja radnih sveski na svom računaru (što će biti obrađeno u ovom delu uputstva), pređi na sledeću celinu ovog uputstva (Korišćenje radnih sveski pomoću servisa Azure Notebooks).
+Instalirao/instalirala si Anakondu? Sjajno, počni da čitaš ovaj deo uputstva. Ako si imao/imala problema prilikom instalacije Anakonde ili primetiš da imaš nekih tehničkih problema prilikom pokretanja i korišćenja radnih sveski na svom računaru (što će biti obrađeno u ovom delu uputstva), možete koristiti Jupyther kroz uslugu u oblaku, a jedna takva mogućnost je opisana u celini.
 
-U ovom delu uputstva upoznaćeš se sa Jupiter radnim sveskama. Ideja je da, pre nego što dođeš na prvo predavanje, stekneš utisak o tome šta su radne sveske i kako izgledaju, kao i da isprobaš korišćenje nekih jednostavnih mogućnosti koje Jupiter pruža. Ne brini, tokom celokupnog programa mnogo ćeš se detaljnije upoznati sa Jupiterom i steći ćeš mnogo više prakse, ali za sada je dovoljno da isprobaš stvari koje se nalaze u ovom uputstvu kako bi stekao/stekla okvirni utisak o tome kako izgleda rad sa Jupiter radnim sveskama. Kada bismo te učili da igraš šah, ovo bi bio korak u kome treba da naučiš kako izgleda šahovska tabla na početku partije i kako koja figura može da se kreće. Sama partija će krenuti tek kasnije. 
+U ovom delu uputstva upoznaćeš se sa Jupiter radnim sveskama. Ideja je da, pre nego što dođeš na prvo predavanje, stekneš utisak o tome šta su radne sveske i kako izgledaju, kao i da isprobaš korišćenje nekih jednostavnih mogućnosti koje Jupiter pruža. Ne brini, tokom celokupnog programa mnogo ćeš se detaljnije upoznati sa Jupiterom i steći ćeš mnogo više prakse, ali za sada je dovoljno da isprobaš stvari koje se nalaze u ovom uputstvu kako bi stekao/stekla okvirni utisak o tome kako izgleda rad sa Jupiter radnim sveskama. Kada bismo te učili da igraš šah, ovo bi bio korak u kome treba da naučiš kako izgleda šahovska tabla na početku partije i kako se zove koja figura. Sama partija će krenuti tek kasnije. 
 
 Prvo što treba da uradiš je da pokreneš Jupyter Notebook. Pronađi ga u startnom meniju i pokreni ga, kao na slici ispod
 
@@ -79,7 +79,7 @@ Prvo što treba da uradiš je da pokreneš Jupyter Notebook. Pronađi ga u start
    :align: center  
 
 |
-To će pokrenuti komandni prozor koji izgleda kao ovaj na slici ispod. Jako je važno da taj komandni prozor ostaviš otvoren. Dok je ovaj prozor otvoren, na lokalnom serveru (na tvom računaru) otvorene su Jupiter sveske. Kada zatvoriš prozor, izgubiće se i mogućnost da pristupiš sveskama.
+To će pokrenuti komandni prozor koji izgleda kao ovaj na slici ispod. Jako je važno da taj komandni prozor ne gasiš dokle god radiš u Jupyteru. Dok je ovaj prozor otvoren, na lokalnom serveru (na tvom računaru) otvorene su Jupiter sveske. Kada zatvoriš prozor, izgubiće se i mogućnost da pristupiš sveskama.
 
 .. image:: ../_images/slika11.jpg
    :align: center 
@@ -91,6 +91,8 @@ Pored komandnog prozora otvoriće se i brauzer, onaj koji je obeležen kao glavn
    :align: center 
 
 |
+Dakle, pokretanjem Jupyter-a su se otvorila dva prozora: jedan crni komandni koji samo treba da ostavimo i ne diramo, a drugi je prozor brauzera u kome zapravo radimo. Tehnički se u komandnom prozoru u lokalu izvršava mali web server na kome radi Jupyter, a kome pristupamo kroz brauzer. To znači da bi gašenjem komandnog prozora prestao da radi Jupyter, a brauzer bi nam rekao da više ne može da uspostavi konekciju sa serverom. Na taj način bismo mogli da izgubimo i promene koje smo skoro unosili.  Ako na kraju rada u Jupyteru uredno pokrenemo opciju „Quit“ (dugme u gornjem desnom uglu web strane), zatvoriće se i komandni prozor u kome radi web server.  Naravno, ukoliko više nemamo otvoren Jupyter u brauzeru, ali nam je sticajem okolnosti ostao otvore komandni prozor, tada taj komandni prozor možemo ugasiti.
+
 Sav rad sa Jupiter sveskama odigraće se u brauzeru tako da ćemo se sada fokusirati upravo na otvoren tab. Prva korisna stvar koju možemo da uradimo je da napravimo novi folder u kome ćemo raditi sa sveskama. Pozicioniraj se tamo gde želiš da napraviš novi folder (prosto klikni na lokaciju gde želiš da napraviš taj folder). Ja ću to uraditi na desktopu tako da ću u ovoj listi izabrati desktop. Kada se nalaziš tamo gde želiš da napraviš folder, potrebno je da klikneš na dugme **New** u gornjem desnom uglu i iz menija koji izađe izabereš **folder**. 
 
 .. image:: ../_images/slika13.jpg
@@ -134,19 +136,19 @@ Hajde sada da vidimo kako izgleda rad sa ćelijama. U ćeliju koja je na ekranu 
 |
 Trebalo bi da dobiješ rezultat kao na slici ispod. U prvom redu nalaze se ulazne vrednosti, a u drugom redu nalaze se vrednosti koje je tvoj program ispisao. 
 
-.. image:: ../_images/slika20.jpg
+.. image:: ../_images/slika19.jpg
    :align: center
 
 |
 Da bi dodao/dodala novu ćeliju, potrebno je da klikneš na dugme sa plusićem, što će dodati novu ćeliju ispod trenutno izabrane, ili da klikneš a dugme **Insert** gde ćeš moći da izabereš da li želiš da ćeliju dodaš ispod ili iznad one na kojoj se trenutno nalaziš. 
 
-.. image:: ../_images/slika21.jpg
+.. image:: ../_images/slika20.jpg
    :align: center
 
 |
 Probaj sada da sam/sama dodaš nove ćelije, u njih uneseš izraze ``3-2``, ``2*3``, ``9/3`` i zatim ih pokreneš. Trebalo bi da dobiješ rezultate kao na slici ispod. 
 
-.. image:: ../_images/slika19.jpg
+.. image:: ../_images/slika21.jpg
    :align: center
 
 |
@@ -160,18 +162,20 @@ U **Cell** meniju ćeš videti i opciju **Cell Type** pomoću koje biraš da li 
 |
 Klikni na poslednju ćeliju, izaberi da njen tip bude Markdown i pokreni je. Vidćeeš da se neće ponašati kao do sada, to jest neće imati ulaznu vrednost (Pajton kod) i izlaznu vrednost (rezultat izvršavanja koda), već će izraz biti prikazana kao tekst, bez izračunavanja. To je zato što je Markdown format koji koristimo da bismo u Jupiter ćelijama pisali tekst. Ovo je sada postala tekstualna ćelija. Markdown možeš posmatrati kao poseban način zapisivanja teksta tako da sam tekst sadrži informacije o tome kako treba da bude formatiran. Određeni programi, kao što su brauzeri, tumače te dodatne informacije o formatiranju i tekst na kraju prikazuju kako je željeno. Iskopiraj ovaj tekst ``*Ovaj tekst će biti u italiku\*, a \__ovaj tekst će biti boldiran__`` u ćeliju čiji je tip Markdown i zatim je pokreni pokreni. Obrati pažnju šta se desilo sa zvezdicama i donjim crtama kada si pokrenuo/pokrenula ćeliju (trebalo bi da izgleda kao na slici ispod). Kao što si mogao/mogla da vidiš, tekst se u Markdown-u zapisuje na jedan način, ali se nakon pokretanja prikazuje na drugi. Ako želiš da se bolje upoznaš sa sintaksom (pravilima zapisivanja i formatiranja) Markdown-a, možeš da odeš na ovaj `link <https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax>`_
 
+Tekstualna polja su važna pre svega zato što nam dozvoljavaju da dokumenujemo ono što smo radili i da ga struktuiramo tako da, onome ko čita, iz naših komentara bude jasno šta smo hteli da izračunamo. Kod koji pišemo zato mora biti dobro dokumentovan u kom god programskom jeziku da radimo. Nama samima je, u trenutku pisanja, (uglavnom) jasno šta pokušavamo da uradimo, ali kada čitamo kod koji je neko drugi pisao, često ume da bude vrlo problematično rastumačiti čemu koji element služi, pogotovo ako kod nije bio dobro dokumentovan. Štaviše, neretko je i sopstveni kod nečitljiv kada mu se vratimo posle nekog vremena, a nismo dokumentovali ono što radimo. Jupiter, tako, ne samo da nam pruža mogućnost da izvršimo različita izračunavanja već da, koristeći kombinaciju tekstualnih polja i polja u kojima računamo, ispričamo priču o tome šta smo radili, priču koja će drugima biti jasna, korisna i koja će im omogućiti da i oni ponove naša izračunavanja. 
+
 .. image:: ../_images/slika23.jpg
    :align: center
 
 |
-Verovatno si do sada primetio/primetila da u uglastim zagradama u ćelijama stoji neki broj. Taj broj predstavlja redosled izvršavanja ćelija. Za našu trenutnu svesku rezultat izvršavanja je nebitan. Ćelije su nezavisne jedna od druge i možemo iz izvršavati pojedinačno, kojim god redosledom želimo, ali možemo zadatai i komandu **Run all** u meniju *Cell* i sve ćelije će biti izvršene, odozgo nadole (to je uobičajeni redosled izvršavanja, osim ako se izričito ne zada drugačiji redosled). Međutim, često ćeš se susretati sa primerima gde je redosled izvršavanja važan.
+Verovatno si do sada primetio/primetila da u uglastim zagradama u ćelijama stoji neki broj. Taj broj predstavlja redosled izvršavanja ćelija. Za našu trenutnu svesku redosled izvršavanja je nebitan. Ćelije su nezavisne jedna od druge i možemo iz izvršavati pojedinačno, kojim god redosledom želimo, ali možemo zadatai i komandu **Run all** u meniju *Cell* i sve ćelije će biti izvršene, odozgo nadole (to je uobičajeni redosled izvršavanja, osim ako se izričito ne zada drugačiji redosled). Međutim, često ćeš se susretati sa primerima gde je redosled izvršavanja važan.
 
 Hajde da dodamo još nekoliko ćelija u kojima ćemo ovog puta iskoristiti nešto što se zovu varijable. U ovom trenutku nema potrebe da se baviš time šta su tačno varijable, ali možeš da ih posmatraš kao kutije u kojima se čuvaju vrednosti i koje pomažu uopštavanju tog koda. Da bismo izračunali zbir brojeva 2 i 3, uvek možemo da napišemo kod ``2+3`` koji će nam uvek davati tačan rezultat pošto Pajton i Jupiter, kao što si do sada video, možemo koristiti kao najobičniji kalkulator, ali, kada bismo želeli da naš kod ne izračunava samo zbir brojeva 2 i 3 već da može da izračuna zbir bilo koja 2 broja, pisali bismo ga u opštijoj formi, koristeći varijable 
 ::
     a=2
     b=3
     zbir=a+b
-    print(zbir)
+    zbir
 
 U kodu koji se nalazi iznad, možemo uvek promeniti vrednosti varijablama ``a`` i ``b``, ali naš program će i dalje ispisivati njihov zbir. Kada bismo umesto 2 broja imali 50 brojeva i hteli da promenimo jedan od njih, ne bismo morali da ponovo ispisujemo ceo izraz u kome sabiramo pedeset brojeva, već bismo promenili samo onaj koji želimo i ponovo pokrenuli program. Hajde da probamo da ovo primenimo na Jupiter radnu svesku. U četiri nove ćelije napisaću po jednu liniju gornjeg programa. Naša sveska će sada izgledati ovako (još uvek nisam pokrenuo ni jednu od novih ćelija)
 
@@ -179,25 +183,25 @@ U kodu koji se nalazi iznad, možemo uvek promeniti vrednosti varijablama ``a`` 
    :align: center
 
 |
-Hajde sada da pokrenemo ove ćelije odozgo na dole, jednu po jednu i vidimo šta će da se desi. Prvo je varijabli ``a`` dodeljena vrednost 2 (operacija 4), zatim je varijabli ``b`` dodeljena vrednost 3 (operacija 5). Zatim je u operaciji šest varijabli ``zbir`` dodeljena vrednost ``a+b`` i na kraju, u operaciji 7, odštampana je vrednost varijable ``zbir``. 
+Hajde sada da pokrenemo ove ćelije odozgo na dole, jednu po jednu i vidimo šta će da se desi. Prvo je varijabli ``a`` dodeljena vrednost 2 (operacija 4), zatim je varijabli ``b`` dodeljena vrednost 3 (operacija 5). Zatim je u operaciji šest varijabli ``zbir`` dodeljena vrednost ``a+b`` i na kraju, u operaciji 7, vraćena je vrednost varijable ``zbir``. 
 
 .. image:: ../_images/slika25.jpg
    :align: center
 
 |
-Hajde sada da ispod varijable zbir dodamo još jednu ćeliju u kojoj ćemo vrednost ``a`` da promenimo u 10, pokrenemo je i da nakon toga ponovo pokrenemo ćeliju u kojoj se nalazi ``print(zbir)``. Videćeš da se zbir i dalje nije promenio iako smo promenili vrednost varijable ``a``. Razlog tome je što je redosled izvršavanja takav da smo prvo dobili vrednost varijable ``zbir`` (operacija 6), a tek onda promenili vrednost varijable ``a`` (operacija 8). Nakon toga smo ponovo odštapali nepromenjenu varijablu ``zbir`` (operacija 9). Da bi se odštampala nova vrednost varijable ``zbir``, potrebno je da ponovo izvršimo ćeliju u kojoj se računa varijabla ``zbir`` i da zatim ponovo odštampamo njenu vrednost.  
+Hajde sada da ispod varijable ``zbir`` dodamo još jednu ćeliju u kojoj ćemo vrednost ``a`` promeniti u 10, pokrenemo je i da nakon toga ponovo pokrenemo ćeliju koja vraća vrednost varijable ``zbir``. Videćeš da se zbir i dalje nije promenio iako smo promenili vrednost varijable ``a``. Razlog tome je što je redosled izvršavanja takav da smo prvo dobili vrednost varijable ``zbir`` (operacija 6), a tek onda promenili vrednost varijable ``a`` (operacija 8). Nakon toga smo ponovo pokrenuli ćeliju koja nam je vratila nepromenjenu vrednost varijable ``zbir`` (operacija 9). Da bismo dobili novu vrednost varijable ``zbir``, potrebno je da ponovo izvršimo ćeliju u kojoj se ova varijabla izračunava i da zatim ponovo pokrenemo ćeliju koja vraća njenu vrednost.  
 
 Kao što smo videli na ovom primeru, redosled izvršavanja ćelija je važan. Iako se neka ćelija fizički nalazi ispod neke druge ćelije, to ne znači da će rezultat njenog izvršavanja doći nakon ćelije koja je iznad nje. Ćelije se mogu izvršavati više puta i važno je da stalno imamo u vidu koje će biti vrednosti i redosled izvršavanja koda u našim ćelijama. 
 
-Ovo nas dovodi i do korišćenja Kernela. Kernel u računarstvu ima više značenja, ali u ovom kontekstu ga treba posmatrati kao deo Jupitera u kome se izvršava Pajton kod. Kernel pamti koje su vrednosti varijabli (na primer varijabli ``a``, ``b`` i ``zbir``), izvršava fukcije (na primer funkciju ``print`` koju smo malopre koristili da bismo ispisali vrednost varijabli), poziva biblioteke...  Kada klikneš na dugme Kernel koje se nalazi u gornjem meniju, ponudi ti se niz korisnih naredbi za Kernel. Hajde sada da probamo da restartujemo Kernel tako što ćemo kliknuti na dugme **Restart**. Izaći će ti poruka koja će te pitati da li sigurno želiš da restartuješ Kernel. Klikni na **Restart** i probaj ponovo da pokreneš ćeliju ``print(zbir)``.
+Ovo nas dovodi i do korišćenja Kernela. Kernel u računarstvu ima više značenja, ali u ovom kontekstu ga treba posmatrati kao deo Jupitera u kome se izvršava Pajton kod. Kernel pamti koje su vrednosti varijabli, izračunava izraze i slično...  Kada klikneš na dugme Kernel koje se nalazi u gornjem meniju, ponudi ti se niz korisnih naredbi za Kernel. Hajde sada da probamo da restartujemo Kernel tako što ćemo kliknuti na dugme **Restart**. Izaći će ti poruka koja će te pitati da li sigurno želiš da restartuješ Kernel. Klikni na **Restart** i probaj ponovo da pokreneš ćeliju koja vraća vrednost varijable ``zbir``.
 
 .. image:: ../_images/slika26.jpg
    :align: center
 
 |
-Desiće se dve stvari. Prvo, ova ćelija će biti obeležan sa 1 zato što je redosled izvršvanja krenuo od početka i drugo, sistem će prijaviti grešku. Kako smo restartovali Kernel, on sada ne zna šta se nalazi u kojoj ćeliji dok ih ne izvršimo i tako, ne može da zna ni šta treba da odštampa. Ako pokušamo da pokrenemo ćeliju u kojoj definišemo varijablu ``Zbir``, dobićemo istu grešku, pošto sistem ne zna šta su ``a`` i ``b``. Da bismo otklonili ove greške, potrebno je da prvo pokrenemo ćelije u kojima definišemo ``a`` i ``b``, a zatim ponovo pokrenemo ćelije u kojima su varijable ``zbir`` i funcija ``print``.
+Desiće se dve stvari. Prvo, ova ćelija će biti obeležana sa 1 zato što je redosled izvršvanja krenuo od početka i drugo, sistem će prijaviti grešku. Kako smo restartovali Kernel, on sada ne zna šta se nalazi u kojoj ćeliji dok ih ne izvršimo i, zbog toga, ne može da zna ni šta treba da odštampa. Ako pokušamo da pokrenemo ćeliju u kojoj definišemo varijablu ``zbir``, dobićemo istu grešku, pošto sistem ne zna šta su ``a`` i ``b``. Da bismo otklonili ove greške, potrebno je da prvo pokrenemo ćelije u kojima definišemo ``a`` i ``b``, a zatim ponovo pokrenemo ćelije u kojima je definisana varijabla ``zbir`` i ćeliju koja vraća njenu vrednost.
 
-Jupiter nam nudi nekoliko opcija za rad sa Kernelom. Možemo ga restartovati, što smo sada uradili, ali možemo ga restartovati i obrisati sve izlazne vrednosti koje smo imali u prethodnom stanju. Ovo može biti korisno kada ne želimo da nas nakon restartovanja zbunjuju izlazne vrednosti koje su tu ostale pre restarta. Takođe, možemo restartovati Kernel i izvršiti sve ćelije ponovo, što može biti korisno kada ne želimo da pokrećemo ćelije pojedinačno već želimo samo da pokrenemo celu svesku ispočetka. Na kraju, videćeš i opciju **Interrupt** na početku. Često će se dešavati da se tvoj kod ne izvrši odmah, već da izvršavanje traje neko vreme, pogotovo kada radiš sa jako velikim brojem podataka. Ova opcija ti nudi mogućnost da prekineš izvršavanje koda u svakom trenutku. Da bi video koji Kernel koristiš (pored Pajton kernela koji mi koristimo, možeš koristiti i kernele za različite programske jezike, na primer R ili Ruby) dovoljno je da pogledaš u gornji desni ugao i tu ćeš videti o kom se kernelu radi i da li on trenutno izvršava neke naredbe (kružić će biti popunjen) ili ne (kružić će biti prazan)
+Jupiter nam nudi nekoliko opcija za rad sa Kernelom. Možemo ga restartovati, što smo sada uradili, ali možemo ga restartovati i obrisati sve izlazne vrednosti koje smo imali u prethodnom stanju. Ovo može biti korisno kada ne želimo da nas nakon restartovanja zbunjuju izlazne vrednosti koje su tu ostale pre restarta. Takođe, možemo restartovati Kernel i izvršiti sve ćelije ponovo, što praktično ponavlja celo izračunavanje od početka redom. Ako nekom treba da pošaljemo svesku, pre slana obično izvršimo ovu opciju. Na kraju, videćeš i opciju **Interrupt** koja se nalazi na vrhu. Često će se dešavati da se tvoj kod ne izvrši odmah, već da izvršavanje traje neko vreme, pogotovo kada radiš sa jako velikim brojem podataka. Ova opcija ti nudi mogućnost da prekineš izvršavanje koda u svakom trenutku. Da bi video koji Kernel koristiš (pored Pajton kernela koji mi koristimo, možeš koristiti i kernele za različite programske jezike, na primer R ili Ruby) dovoljno je da pogledaš u gornji desni ugao i tu ćeš videti o kom se kernelu radi i da li on trenutno izvršava neke naredbe (kružić će biti popunjen) ili ne (kružić će biti prazan)
 
 Na kraju rada, ne zaboravi da klikneš na **Save** dugme (disketica u gornjem levom uglu) kako bi promene koje si uneo bile zapamćene. Naravno, možeš pristisnuti i **Ctrl** + **S** što će takođe zapamtiti file. 
 
@@ -206,7 +210,7 @@ Ako te ovo što smo sada uradili nije impresioniralo, ne brini, ta reakcija je s
 Distribucija materijala na kursu
 --------------------------------
 
-Sada smo završili rad u ovoj radnoj svesci i uradićemo još jednu stvar pre nego što završimo ovo uputstvo. U tvoj folder ubacićemo još jednu radnu svesku koju ćemo preuzeti sa našeg sa našeg Github repozitorijuma. U ovom trenutku ne moraš se baviti time šta je Github i kako se koristi, dovoljno je da isprobaš da u svoj folder ubaciš i radnu svesku koju si ovako preuzeo/preuzela, pošto ćemo ti tokom Škole tako distribuirati materijale. Klikni na ovaj link https://github.com/Petlja/ZSkola2020Modul0/archive/master.zip i to bi trebalo da pokrene preuzimanje .zip fajla. Taj fajl otvori i njegov sadržaj (folder koji se zove ZSkola2020Modul0-master) iskopiraj u folder koji smo napravili na početku ove sekcije uputstva (kod mene je to folder Zimska_Skola_Jupiter). Kada si to uradio/uradila, trebalo bi da u folderu koji je otvoren u jednom od tabova brauzera (ako nisi isključio/isključila ni jedan tab i dalje će biti tu, ako jesi ponovo možeš da odeš localhost URL koji smo na početku koristili kako bi otvorio početnu stranu Jupiter Notebook-a) vidiš ovaj folder. Uđi u njega i otvori radnu svesku koja se u njemu nalazi.
+Sada smo završili rad u ovoj radnoj svesci i uradićemo još jednu stvar pre nego što završimo ovo uputstvo. U tvoj folder ubacićemo još jednu radnu svesku koju ćemo preuzeti sa našeg sa našeg Github repozitorijuma. U ovom trenutku ne moraš se baviti time šta je Github i kako se koristi, dovoljno je da isprobaš da u svoj folder ubaciš i radnu svesku koju si ovako preuzeo/preuzela, pošto ćemo ti tokom Škole tako distribuirati materijale. Klikni na ovaj link https://github.com/Petlja/ZSkola2020Modul0/archive/master.zip i to bi trebalo da pokrene preuzimanje .zip fajla. Taj fajl otvori i njegov sadržaj (folder koji se zove ZSkola2020Modul0-master) iskopiraj u folder koji smo napravili na početku ove sekcije uputstva (kod mene je to folder Zimska_Skola_Jupiter na Desktopu). Kada si to uradio/uradila, trebalo bi da u folderu koji je otvoren u jednom od tabova brauzera (ako nisi isključio/isključila ni jedan tab i dalje će biti tu, ako jesi ponovo možeš da odeš u onaj crni prozor i iskopiraš link) vidiš ovaj folder. Uđi u njega i otvori radnu svesku koja se u njemu nalazi.
 
 Ako si koristio/koristila Azuer Notebooks servis, pogledaj u trećem delu uputstva kako da uvezeš Github repozitorijum. 
 
